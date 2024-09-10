@@ -9,5 +9,5 @@
 ## Debugging:
 ### - connect the LED with a resistor.
 ### - make sure the connections are correct.
-### - make sure the pin modes are set correctly.
+### - make sure the pin modes are set correctly(LED pin set to output, PIR Sensor set to input).
 ### - make sure the components are not faulty.
