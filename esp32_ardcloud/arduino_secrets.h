@@ -1,0 +1,3 @@
+#define SECRET_DEVICE_KEY "?o2SQZPhe2kXhkVKFXW#ZgWUY"
+#define SECRET_OPTIONAL_PASS "Cref iz gei"
+#define SECRET_SSID "OPPO A53"
