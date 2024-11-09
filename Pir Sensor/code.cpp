@@ -1,5 +1,5 @@
 int led = 11; // pin where LED is connected
-int pir_sensor = 2; // pin where PIR sensor is connected
+int pir_sensor = 1; // pin where PIR sensor is connected
 
 void setup()
 {
