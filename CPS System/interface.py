@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Connect to the Arduino via Serial
-arduino = serial.Serial(port='COM4', baudrate=9600, timeout=.1)  # Update COM3 to your port
+arduino = serial.Serial(port='COM4', baudrate=9600, timeout=.1)  # Update COM3 to your port, like /dev/ttyACM0 in ubuntu
 
 def send_command(command):
     """Send a command to Arduino and display the response."""

@@ -1,5 +1,5 @@
 
-int ledPin = 13;  // Built-in LED on Arduino Uno
+int ledPin = 12;  // connect led to this pin on arduino
 
 void setup() 
 {
