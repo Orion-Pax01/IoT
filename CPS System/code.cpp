@@ -5,6 +5,7 @@ void setup()
 {
   pinMode(ledPin, OUTPUT);   // Set the LED pin as an output
   Serial.begin(9600);        // Start serial communication at 9600 baud rate
+  //Serial.println("CPS System");  uncomment only for using in simulator
 }
 
 void loop() 
