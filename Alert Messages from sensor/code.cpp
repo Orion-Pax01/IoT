@@ -1,12 +1,12 @@
 
 int poten_pin = A1;
-int buzzpin = 9;
+int ledpin = 12;
 int threshold = 500;
 
 void setup()
 {
   pinMode(poten_pin, INPUT);
-  pinMode(buzzpin, OUTPUT);
+  pinMode(ledpin, OUTPUT);
   Serial.begin(9600);
   delay(1000);
 }
@@ -18,14 +18,13 @@ void loop()
   {
     Serial.println(poten_val);
     Serial.println("Warning. Threshold value exceeded.");
-    digitalWrite(buzzpin, HIGH);
+    digitalWrite(ledpin, HIGH);
   }
   else
   {
     Serial.println(poten_val);
     Serial.println("Threshold maintained.");
-    digitalWrite(buzzpin, LOW);
-
+    digitalWrite(ledpin, LOW);
   }
   delay(1000);
 }
