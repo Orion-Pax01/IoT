@@ -1,4 +1,4 @@
-### Alt approach using AWS: [https://github.com/Nycto-c05/esp32_aws](ESP32 AWS)
+### Alt approach using AWS: [esp32 AWS](https://github.com/Nycto-c05/esp32_aws)
 
 # ESP32 with Arduino Cloud
 ## Step 1 : Cloud Config
