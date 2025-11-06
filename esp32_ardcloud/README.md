@@ -1,8 +1,8 @@
-### Alt approach using AWS: [esp32 AWS](https://github.com/Nycto-c05/esp32_aws)
+Alt approach using AWS: [esp32 AWS](https://github.com/Nycto-c05/esp32_aws)
 
-# ESP32 with Arduino Cloud
+## ESP32 with Arduino Cloud
 
-## Step 1 : Cloud Config
+### Step 1 : Cloud Config
 
  - Go to [Arduino Cloud](arduino.cc).
  - Download Arduino Cloud agent.
@@ -30,7 +30,7 @@
 	- Right Sidebar >  Network > Set WiFi Name, Password and the downloaded secret key.
 	- Top Bar > Sketch > Download Sketch (It'll download a folder with the necessary files).
 
-## Step 2 : IDE Config
+### Step 2 : IDE Config
 
 - Unzip it and open the sketch file.
 - Go to [GitHub file](https://github.com/Orion-Pax01/IoT/blob/main/esp32_ardcloud/sketch.cpp), which has the sketch code.
@@ -40,7 +40,7 @@
 - Go to thingProperties.h and update the same.
 - Upload Code.
 
-## Step 3 :  DashBoard
+### Step 3 :  DashBoard
 
 - Sidebar >  Dashboards > Create new Dashboard.
 - Add > Add Visualization widget (Gauge) > Link Variable > Humi (Variable) >  Change Widget Name.
